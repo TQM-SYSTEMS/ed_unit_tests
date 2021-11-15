@@ -1,0 +1,9 @@
+{
+    "diagnosticLanguage": "ru",
+    "diagnostics": {
+        "skipSupport": "withSupportLocked",
+        "LineLength": {
+            "maxLineLength": 120
+        }
+    }
+}

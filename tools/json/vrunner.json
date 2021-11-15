@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/vanessa-runner-schema.json",
+    "default": {
+        "--ibconnection": "/Slocalhost\\pgdc",
+        "--db-user": "",
+        "--db-pwd": "",
+        "--v8version": "8.3.18",
+        "--locale": "ru",
+        "--language": "ru",
+        "--additional": "/DisplayAllFunctions /Lru /iTaxi /TESTMANAGER",
+        "--ordinaryapp": "-1"
+    },
+    "syntax-check": {
+        "--groupbymetadata": true,
+        "--exception-file": "./tools/syntax-check-excludes.txt",
+        "--junitpath": "out/syntaxCheck/junit",
+        "--allure-results2": "out/syntaxCheck/allure",
+        "--v8version": "8.3.18",
+        "--storage-name": "",
+        "--debuglogfile": false,
+        "--storage-user": "",
+        "--storage-pwd": "",
+        "--mode": [
+            "-EmptyHandlers",
+            "-UnreferenceProcedures"
+        ]
+    },
+    "xunit": {
+        "--xddConfig": "./tools/json/xUnitParams.json",
+        "--reportsxunit": "ГенераторОтчетаAllureXML{out/smoke/allure.json}",
+        "--workspace": ".",
+        "--db-user": "",
+        "--db-pwd": "",
+        "--testclient": "User:PWD:1538",
+        "--pathxunit": "$addRoot/xddTestRunner.epf",
+        "testsPath": "./tests"
+    },
+    "designer": {
+        "--ibconnection": "/Slocalhost\\pgdc",
+        "--storage-name": "",
+        "--storage-user": "",
+        "--storage-pwd": ""
+    }
+}
