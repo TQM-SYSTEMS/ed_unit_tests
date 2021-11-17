@@ -1,6 +1,13 @@
+[![YouTube](https://img.shields.io/badge/youtube-channel-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/c/TqmUaSystems)
+[![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg?style=for-the-badge)](https://t.me/joinchat/Rz30Yy9vXMYzNDkyy)
+![forks](https://img.shields.io/github/forks/TQM-SYSTEMS/ed_unit_tests?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/TQM-SYSTEMS/ed_unit_tests?style=for-the-badge)
+![last commit](https://img.shields.io/github/last-commit/TQM-SYSTEMS/ed_unit_tests?style=for-the-badge)
+
 - [Юнит - тестирование в 1С/BAF на основе фреймворка vanessa-add](#юнит---тестирование-в-1сbaf-на-основе-фреймворка-vanessa-add)
   - [Рекомендации по юнит-тестам](#рекомендации-по-юнит-тестам)
   - [Материалы для работы](#материалы-для-работы)
+
 
 
 # Юнит - тестирование в 1С/BAF на основе фреймворка vanessa-add
