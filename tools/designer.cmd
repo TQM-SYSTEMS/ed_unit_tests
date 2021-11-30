@@ -1,2 +1,2 @@
 @chcp 65001
-call vrunner designer --no-wait %*
+call vrunner designer --settings ./tools/json/vrunner.json
