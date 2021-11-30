@@ -2,7 +2,6 @@
     "$schema": "https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/vanessa-runner-schema.json",
     "default": {
         "--ibconnection": "/Slocalhost/demo",
-        //"--ibconnection": "/FC:/Users/mSamokhval/Documents/1C/Platform8Demo",
         "--db-user": "Администратор",
         "--db-pwd": "",
         "--v8version": "8.3.18",
@@ -14,10 +13,9 @@
     },
     "xunit": {
         "--xddConfig": "./tools/json/smoke.json",
-        "--reportsxunit": "ГенераторОтчетаAllureXML{out/smoke/allure.json}",
+        "--reportsxunit": "ГенераторОтчетаAllureXMLВерсия2{out/smoke/allure.xml}",
         "--testclient": "Администратор::1538",
         "--pathxunit": "$addRoot/xddTestRunner.epf",
-        //"testsPath": "./tests"
         "testsPath": "$addRoot/tests/smoke"
     }
 }
